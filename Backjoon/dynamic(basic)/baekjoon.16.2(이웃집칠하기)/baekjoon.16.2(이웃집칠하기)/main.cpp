@@ -1,13 +1,9 @@
 #include <iostream>
-#include <vector>
-#include <stack>
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     int N;
-    stack<int> stc;
-    vector<int> vec[3000];
     int val[1000][3] = {0,};
     int min;
     

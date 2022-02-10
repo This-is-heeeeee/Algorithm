@@ -1,6 +1,4 @@
-# NxM크기의 얼음 틀
-# 1은 칸막이
-# 생성되는 얼음 덩어리의 개수
+# 미로 최단 루트
 import pytest
 from collections import deque
 

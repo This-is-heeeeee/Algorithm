@@ -6,6 +6,7 @@ import pytest
 @pytest.mark.parametrize("n,c,X,expected",
                          [(5, 3, [1, 2, 8, 4, 9], 3)])
 
+
 def test(n,c,X,expected):
     answer = solution(c,X)
     assert answer == expected

@@ -1,4 +1,4 @@
-# 정수 삼각형
+# 퇴사
 
 import pytest
 

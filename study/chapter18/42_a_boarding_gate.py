@@ -10,7 +10,7 @@ import pytest
 
 
 def test(G,P, gi, expected):
-    answer = solution(G,P, gi)
+    answer = solution(G, P, gi)
     assert answer == expected
 
 def DFS(current_plane, gi, available_gates, count):
